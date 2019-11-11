@@ -1,0 +1,43 @@
+{
+	"name": "@argentix/triskell_caixa",
+	"version": "1.0.0",
+	"com_soluster": {
+		"build": "20191108"
+	},
+	"description": "FERRARI - Triskell Integration",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified! Configure in package.json\" && exit 1",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/argentix/triskell_caixa.git"
+	},
+	"keywords": [
+		"node.js",
+		"triskell"
+	],
+	"dependencies": {
+		"@argentix/triskell_api": "^4.4.0",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"cron": "^1.7.2",
+		"errorhandler": "^1.5.1",
+		"express": "^4.17.1",
+		"moment": "^2.24.0",
+		"pug": "2.0.0-rc.4",
+		"request": "^2.88.0",
+		"uuid": "^3.3.3",
+		"winston": "^2.4.4",
+		"winston-mail": "^1.5.2",
+		"xml": "^1.0.1",
+		"xml2js": "^0.4.22"
+	},
+	"engines": {
+		"node": "10.x"
+	},
+	"author": "Cedric Monnier - Soluster Sarl",
+	"license": "UNLICENSED",
+	"readmeFilename": "README.md"
+}

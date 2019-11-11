@@ -1,0 +1,79 @@
+{
+	"MAIL_CONFIG": {
+		"host": "mail.soluster.net"
+	},
+	"TRISKELL": {
+		"settings": {
+			"report_id": 12
+		},
+		"periods": {
+			"periodName": "month",
+			"selector": "_PERIOD_IDS",
+			"selectorId": "40",
+			"params": [
+				"7#5"
+			],
+			"global": 1,
+			"year": 2,
+			"quarter": 4,
+			"month": 5,
+			"day": 8
+		},
+		"currencies": {
+			"selector": "_EXCHANGE_RATES"
+		},
+		"lists": {
+			"selector": "_LIST_ATTRIBUTES"
+		},
+		"roles":{
+			"selector": "_DATAOBJECT_USER_ROLES"
+		},
+		"workflows": {
+			"selector": "_WORKFLOWS_CONFIG"
+		}
+	},
+	"TPA": {
+	},
+	"REPORTS": {
+	},
+	"FUNCTIONS": {
+	},
+	"PAGES": {
+		"actionTimeout": 15,
+		"project": {
+			"id": "S65",
+			"keepConnection": true,
+			"params": [{
+				"id": "8",
+				"value": "dataobject_id"
+			}],
+			"view": "projectActions"
+		}
+	},
+	"ACTIONS": {
+		"project": {
+			"calculateProject": {
+				"module": "actions/project",
+				"function": "calculateProject"
+			}
+		}
+	},
+	"WEBHOOKS": {
+		"ips": [
+			"::ffff:80.219.102.226",
+			"::ffff:54.77.231.232"
+		],
+		"project": {
+			"events": {
+				"clearCapacity": {
+					"module": "hooks/project",
+					"function": "clearCapacity",
+					"reportId": "S66",
+					"report_params": [
+						{ "id": "8", "value": "dataobject_id" }
+					]
+				}
+			}
+		}
+	}
+}
