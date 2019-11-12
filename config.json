@@ -4,14 +4,14 @@
 	},
 	"TRISKELL": {
 		"settings": {
-			"report_id": 12
+			"report_id": 1
 		},
 		"periods": {
 			"periodName": "month",
 			"selector": "_PERIOD_IDS",
-			"selectorId": "40",
+			"selectorId": "4",
 			"params": [
-				"7#5"
+				"3#5"
 			],
 			"global": 1,
 			"year": 2,

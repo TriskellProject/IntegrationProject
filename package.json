@@ -1,5 +1,5 @@
 {
-	"name": "@argentix/triskell_caixa",
+	"name": "@argentix/triskell_cgd",
 	"version": "1.0.0",
 	"com_soluster": {
 		"build": "20191108"
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/argentix/triskell_caixa.git"
+		"url": "https://github.com/argentix/triskell_cgd.git"
 	},
 	"keywords": [
 		"node.js",
@@ -28,6 +28,7 @@
 		"moment": "^2.24.0",
 		"pug": "2.0.0-rc.4",
 		"request": "^2.88.0",
+		"strong-soap": "^1.21.0",
 		"uuid": "^3.3.3",
 		"winston": "^2.4.4",
 		"winston-mail": "^1.5.2",
