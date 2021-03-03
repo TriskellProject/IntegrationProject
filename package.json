@@ -26,7 +26,7 @@
 		"errorhandler": "^1.5.1",
 		"express": "^4.17.1",
 		"moment": "^2.24.0",
-		"pug": "2.0.0-rc.4",
+		"pug": "3.0.1",
 		"request": "^2.88.0",
 		"strong-soap": "^1.21.0",
 		"uuid": "^3.3.3",
